@@ -1,0 +1,28 @@
+/*********************************************
+
+This is the style file for this project.
+
+**********************************************/
+
+body {
+  font-family: Courier, monospace;
+  width: 600px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+div {
+  margin-top: 1em;
+}
+
+.focus {
+background-color: yellow;
+}
+
+.push {
+background-color: red;
+}
+
+.logFade {
+
+}
