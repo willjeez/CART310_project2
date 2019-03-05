@@ -68,8 +68,6 @@ function setup() {
   powerDrainInt = setInterval(powerDrain,1000);
   rockSlipCheckInt = setInterval(rockSlipCheck,4000);
   fatigueUpdateInt = setInterval(fatigueUpdate,400);
-  $('span.push').on('click',pushClick);
-  $('span.focus').on('click',powerClick);
 
   // runs the buttonHandle() function on pressing the 'a' key
   holdCount = 0;
